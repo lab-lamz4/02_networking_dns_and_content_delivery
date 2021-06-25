@@ -1,0 +1,14 @@
+#cloud-config
+timezone: Europe/Moscow
+users:
+  - name: epam_leodorov
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCnNKtufOi23ESMZPLKU6p6nS3tnFB+13LaSplCGlI2HFzLexwU9hnWKFixHeavRi0gFv1y1Xy0EWZ1dM/C8qAv4PPmqakfU8M2pEXq2kKaoz3MDJg8vBS01pSB77h+hH0cK6EmQql5grWttgydm/byJb3YKT3AJz+5jeUIX+Xdm3j2O6+SyYFjArz+LJTybIAfAUpEs9AEd7hZh70QY7ZUYfVIbc2fmgyY3mYWVKKTEKGHWp3dlQQajYEHTl0ykaiC11bjLxukvHHm6dufQ/ambZzNxgHeI4brawZnrrUbJvXOg0sGmwBfGYRCSuRQuzbL6BqTqm7mwLHvFbIVjWGb
+packages:
+  - dnsutils
+  - tree
+
+
