@@ -1,3 +1,11 @@
+# 02 VPC, EC2
+
+VPC with private and public subnets.
+Nat gateway associated with the private subnet.
+EC2 in the public subnet as Bastion host and host in the private network.
+
+## Used resources
+
 terraform modules from https://github.com/SebastianUA/terraform.git
 
 Great thanks to Vitaliy Natarov!
