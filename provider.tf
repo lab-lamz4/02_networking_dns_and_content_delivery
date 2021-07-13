@@ -1,6 +1,4 @@
-#
-# MAINTAINER Vitaliy Natarov "vitaliy.natarov@yahoo.com"
-#
+
 terraform {
   required_version = "~> 0.13"
   backend "s3" {
